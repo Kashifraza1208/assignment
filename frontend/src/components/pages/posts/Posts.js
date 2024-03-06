@@ -66,7 +66,7 @@ function Posts() {
           </div>
         </div>
         <div class="flex bg-white flex-wrap -mx-4">
-          {posts.posts.map((post, index) => (
+          {posts?.posts?.map((post, index) => (
             <div key={index} class="w-full md:w-1/2 lg:w-1/3 px-4">
               <div class="max-w-[300px] mx-auto mb-10">
                 <div class="rounded overflow-hidden mb-8">
